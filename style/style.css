@@ -48,10 +48,10 @@
   background-image: url(../img/first-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: 50% 50%; */
   position: relative;
   height: 100vh;
   flex: 1 1 auto;
+  margin-bottom: 150px;
 }
 
 .content{
@@ -167,9 +167,6 @@
   padding-left: 10px;
 }
 
-.arrow-space {
-  padding-right: 10px;
-}
 
 .z-index-1 {
   position: absolute;
@@ -235,4 +232,101 @@
      flex-wrap: wrap;
    } */
 
-/* 
+/* */
+
+.main{
+ text-align: center;
+ 
+}
+
+.about_theatre_description{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.theatre_title{
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #C4C4C4;
+}
+
+.gold_text{
+  color: #D1A954;
+}
+
+.theatre_text{
+  width: 100%;
+  max-width: 455px;
+  margin-right: 10px;
+}
+
+.theatre-title{
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.about_theatre_text{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+text-align:justify;
+}
+
+.theatre_count_content{
+display: flex;
+margin-right: 30px;
+/* flex-direction: column;  є питання по тому чому як я роблю це то в мене margin стають менші*/ 
+flex-direction: column;
+}
+
+.theatre_numb_text {
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+color:#C4C4C4;
+}
+
+.img_theatre_rating{
+  margin-bottom: 150px;
+}
+
+.partners{
+  margin-bottom: 120px;
+
+}
+
+.space_partner{
+  margin-bottom: 140px;
+}
+
+
+
+.stay_patron_contacts{
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
