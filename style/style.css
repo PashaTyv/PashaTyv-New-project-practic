@@ -21,7 +21,6 @@
 
 .header-sidebar{
  display: none;
-
 }
 
 .header-sidebar.active{
@@ -41,11 +40,12 @@
   height: 32px;
   opacity: 0.3;
   cursor: pointer;
-  
   }
+
   .close:hover {
   opacity: 1;
   }
+
   .close:before, .close:after {
   position: absolute;
   left: 15px;
@@ -54,9 +54,11 @@
   width: 2px;
   background-color:  #FFFFFF;;
   }
+
   .close:before {
   transform: rotate(45deg);
   }
+
   .close:after {
   transform: rotate(-45deg);
   }
@@ -65,9 +67,6 @@
     display: flex;
     flex-direction: column;
     margin: 35% 0 0 20%;
-
-
-
   }
 
 .sidebar-text{
@@ -94,7 +93,6 @@ text-align: justify;
   margin-left: -71%;
   width: 38%;
   height: 167px;
-  
 }
 
 .header-container {
@@ -102,7 +100,6 @@ text-align: justify;
   min-height: 115px;
   justify-content: center;
   align-items: center;
- 
 }
 
 .header-content {
@@ -126,17 +123,6 @@ text-align: justify;
   display: none;
 }
 
-/* .header::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #444444;
-} */
-
-/*-------header------*/
 .theatre-home-page {
   background-image: url(../img/first-background.png);
   background-repeat: no-repeat;
@@ -166,8 +152,6 @@ text-align: justify;
   color: #FFFFFF;
 }
 
-
-
 .home-page-text {
   font-family: Open Sans;
   font-style: normal;
@@ -195,7 +179,6 @@ text-align: justify;
   align-items: center;
   justify-content: flex-end;
 }
-
 
 .left-menu-text a {
   font-family: Open Sans Condensed;
@@ -260,7 +243,6 @@ text-align: justify;
   padding-left: 10px;
 }
 
-
 .z-index-1 {
   position: absolute;
   z-index: 1;
@@ -274,11 +256,8 @@ text-align: justify;
   width: 100%;
 } 
 
-
-
 .main{
  text-align: center;
-
 }
 
 .about_theatre_description{
@@ -343,7 +322,6 @@ justify-content: space-between;
   margin: 0 30px;
 }
 
-
 .theatre_numb_text {
 font-family: Open Sans Condensed;
 font-style: normal;
@@ -354,18 +332,16 @@ letter-spacing: 0.05em;
 color:#C4C4C4;
 }
 
-
 .theatre_performances_img{
 margin-top: 100px;
 position: relative;
 }
 
 .position-2 {
-  position: absolute;
-  top: 40%;
-  left: 35%;
-  }
-
+position: absolute;
+top: 40%;
+left: 35%;
+}
 
 .img_theatre_rating{
   margin-bottom: 150px;
@@ -382,7 +358,6 @@ position: relative;
   justify-content:center  ;
   width: 100%;
   margin-top: 100px;
-  
 }
 .logo_partner{
   width: calc(25% - 80px);
@@ -401,7 +376,6 @@ position: relative;
 .stay_patron_contacts{
   width: 30%;
   margin-right: 125px;
-
 }
 
 .patron_contacts{
@@ -425,13 +399,11 @@ position: relative;
   margin-bottom: 80px;
 }
 
-
 .stay_patron_form{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 
 .input_text{
   width: 48%;
@@ -439,7 +411,6 @@ position: relative;
   max-width: 450px;
   flex-wrap: wrap;
   flex-direction: column;
-
 }
 
 .form_input{
@@ -469,7 +440,6 @@ box-sizing: border-box;
   text-align: end;
 }
 
-
 .textarea{
 width: 100%;
 height: 100px;
@@ -490,7 +460,6 @@ box-sizing: border-box;
   width: 100%;
   margin-top: 40px;
 }
-
 
 .form_text_btn{
   width: 100%;
@@ -523,7 +492,6 @@ line-height: 150%;
 color: #989898;
 }
 
-
 @media (max-width: 1300px){
   
  .home-page-about-theatre{
@@ -544,9 +512,7 @@ color: #989898;
  .header-container {
    margin-top: 30px;
  }
-
 }
-
 
 @media (max-width: 992px) {
   .home-page-slider {
@@ -595,7 +561,6 @@ color: #989898;
   .img_theatre_rating{
     width: 100%;
   }
-
   .header-container{
     margin-top: 0px; 
     justify-content:space-between;
@@ -604,11 +569,9 @@ color: #989898;
     display: flex;
     flex-direction: column;
   }
-
   .stay_patron_form{
     order: 1;
   }
-
   .stay_patron_contacts{
     order: 2;
     margin-right: 0;
@@ -620,10 +583,7 @@ color: #989898;
     text-align:justify; 
     column-count: 2;
     column-gap: 40px;
-
   }
-
-
 
   .header-burger{
     display: block;
@@ -640,8 +600,6 @@ color: #989898;
     width: 100%;
     height: 2px;
     top: 9px;
-
-
   }
 
   .header-burger::before,
@@ -662,8 +620,6 @@ color: #989898;
     bottom: 0;
   }
 
-
-  
   }
 
 
@@ -696,12 +652,11 @@ color: #989898;
 
   .theatre_count{
     margin: 20px -17px 0 -17px;
-    
   }
 
   .patron_contacts{
     font-size: 11px;
-  
+
   }
 
   .theatre_performances_img img{
@@ -720,7 +675,7 @@ color: #989898;
   }
 .btn{
   width: 100%;
-}
+  }
 
 }
   

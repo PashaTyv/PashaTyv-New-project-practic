@@ -1,9 +1,3 @@
-// $(document).ready(function() {
-//    $('header-burger').click(function(event) {
-//       $('header-burger').toggleClass('active');
-//    });
-// });
-
 (function () {
    const burger = document.querySelector('.header-burger');
    const headerSideBar = document.querySelector('.header-sidebar');
@@ -11,9 +5,6 @@
    headerSideBar.classList.toggle('active')
    });
 }());
-
-// element.classList.remove("mystyle");
-
 
 (function () {
    const close = document.querySelector('.close');
